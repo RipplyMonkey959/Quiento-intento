@@ -1,0 +1,94 @@
+.circulo { /*/clase circulo /*/
+    width: 100px; /*/amncho de la figura /*/
+    height: 100px; /*/altura de la figura /*/
+    border-radius: 50%;/*/borde de la figura para hacer 
+    un circulo /*/
+    background-color: rgb(172, 172, 218); /*/fondo unicamente
+    de la figura /*/
+    border-style: solid; /*/estilo del borde /*/
+    margin-bottom: 50px;/*/ margen inferior /*/
+    margin-top: -400px; /*/para acomodar el marguen superior /*/
+    display: block; /*/establece si un elemento ocupará todo el
+     espacio por defecto/*/
+    margin-left: auto;/*/el margen del lado izquierdo /*/
+    margin-right: auto; /*/el margen del lado derecho /*/
+} /*/ cierre /*/
+.rectangulo { /*/ segunda figura/*/
+    width: 290px; /*/ el ancho /*/
+    height: 500px;/*/ la altura /*/
+    border-radius: 15%; /*/ la dimension del borde /*/
+    background-color: red; /*/ el color de fondo/*/
+    border-style: solid;/*/ el estilo del borde /*/
+    margin-bottom: 55px; /*/ el marguen inferior/*/
+    display: block; /*/establece si un elemento ocupará todo el
+    espacio por defecto/*/
+    margin-left: auto; /*/ el lado izquierdo del margen /*/
+    margin-right: auto; /*/ el lado derecho del margen/*/
+}/*/ cierre /*/
+.triangulo { /*/ tercera clase /*/
+    width: 0px;/*/ ancho/*/ 
+    right: 0px;/*/ lado redecho/*/
+    border: 115px solid  transparent; /*/ el estilo del borde
+    sera transparente/*/
+    border-top: 0; /*/ las propiedades del borde /*/
+    border-bottom: 120px solid rgb(43, 175, 146); /*/ color del borde /*/
+    margin-left: auto; /*/margen del lado izquierdo establecido /*/
+    margin-right: auto; /*/ margen del lado derecho establecido /*/
+    display: block; /*/establece si un elemento ocupará todo el
+    espacio por defecto/*/
+}/*/ cierre /*/
+.rombo { /*/ otra clase/*/
+    width: 80px; /*/ el ancho/*/
+    height: 80px; /*/ lo alto/*/
+    background-color:  rgb(232, 112, 33); /*/ el color de fondo/*/
+    position: relative; /*/ la posicion/*/
+    transform: rotate(55deg); /*/ la rotacion y hacia que lado va a rotar/*/
+    margin-top: 18.5%; /*/ las pripiedades del margen /*/
+    margin-left: 40px; /*/ el lado izquierdo del margen/*/
+    border-style: solid;/*/ el estilo del borde/*/
+    margin-left: auto;/*/ el margen del lado izquierdo/*/
+    margin-right: 42%; /*/ el margen del lado derecho/*/
+    box-shadow: rgb(236, 138, 32) ; /*/agregar sombras y el color de
+    estas /*/
+} /*/ cierre/*/
+.rombo2 { /*/ en esta clase se esta repitiendo el nombre de una clase
+    ya existente pero con la diferencia de que esta tiene un elemento
+    que la hace diferente y por lo tanto una clase nueva /*/
+        width: 80px;/*/ el ancho /*/
+        height: 80px;/*/ la altura /*/
+        background-color: rgb(232, 112, 33); /*/ el fondo del color/*/
+        position: relative; /*/ la posicion/*/
+        transform: rotate(-55deg); /*/ la rotacion del elemento/*/
+        margin-top: -6%;/*/ propiedades del margen/*/
+        margin-left: 40px;/*/ el lado izquierdo /*/
+        border-style: solid; /*/ el estilo del borde/*/
+        margin-left: auto;/*/ el margen izquierdo en se ubica en automatico/*/
+        margin-right: 51%;/*/ el margen derecho /*/
+       box-shadow: rgb(243, 156, 34); /*/ el color de la sombra /*/
+    }/*/ cierre/*/
+    .triangulo2 { /*/ penultima clase/*/
+        width: 0px;/*/ el ancho/*/
+        right: 0px;/*/ lado derecho/*/
+        border: 115px solid  transparent; /*/ el estilo del borde/*/
+        transform: rotate(90deg); /*/ la rotacion/*/
+        border-top: 0;/*/ propiedades del borde/*/
+        border-bottom: 120px solid rgb(2, 2, 2); /*/ el color del borde/*/
+        margin-top: -15%; /*/ propiedades del margen/*/
+        margin-left: auto;/*/ el margen del lado izquierdo/*/ 
+        margin-right: 28%;/*/ el margen del lado derecho/*/ 
+        display: block; /*/ se utiliza para establecer que un elemento debe ser 
+        mostrado como un bloque en la página/*/
+    }/*/ cierre/*/ 
+    .triangulo3 {/*/ ultima clase/*/
+        width: 0px; /*/ el ancho/*/ 
+        right: 0px;/*/ el lado derecho/*/
+        border: 120px solid  transparent; /*/ el estilo del borde/*/ 
+        transform: rotate(-90deg);/*/ la rotacion del borde o figura/*/ 
+        border-top: -10px; /*/pripiedades del borde/*/
+        border-bottom: 150px solid rgb(2, 9, 8); /*/el color del borde/*/
+        margin-top: -13%;  /*/pripiedades del margen/*/
+        margin-left: 22.7%; /*/ el lado izquierdo del margen/*/
+        margin-right: auto;/*/ el lado derecho del margen/*/
+        display: block; /*/se utiliza para establecer que un elemento debe ser 
+        mostrado como un bloque en la página/*/
+    }/*/ cierre/*/

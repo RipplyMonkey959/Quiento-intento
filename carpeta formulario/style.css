@@ -1,0 +1,56 @@
+ *{ /*/ el * es para seleccionar todos los documentos en un html*/
+    margin: 0; /*/es el margen /*/
+    padding: 0; /*/ El reeleno/*/
+    box-sizing: border-box; /*/ el box-sizing hacerecalcular la medida del border y el padding con respecto al tamaño 
+    del contenido./*/
+} /*/ cierre /*/
+body{ /*/Se esta mandando a llamar al body y todo lo que este dentro de este /*/
+    background-image: url("../image/NFS.jpeg"); /*/ el background-image es el fondo de la pantalla y se esta mandando
+    a llamar una imagen y su ubicacion /*/
+} /*/ cierre  la etiqueta/*/ 
+.FM{ /*/ con el punto se manda a llmar todo la clase/*/
+    width: 400px; /*/ el width es el ancho y se puede medir en px.%, em. /*/
+    background: #24303c.2; /*/ es el fondo pero unicamente de lo que haya en la etiqueta FM y el color es hexadecimal/*/ 
+    padding: 30px; /*/Relleno /*/ 
+    margin: auto; /*/el margen se esta poniendo en auto /*/
+    margin-top: 100px; /*/establece el margen superior de un elemento especificando /*/ 
+    border-radius: 4px; /*/el border-radius es para redondear las esquinas de una imagen o campo /*/
+    font-family: 'calibri'; /*/define una lista de  familias de fuentes, con un orden de prioridad,
+     para utilizar en un elemento seleccionado /*/
+    color: skyblue; /*/es el color y se puede medir en nombre del color, hexadecimal y rgb /*/
+    box-shadow: 7px 13px 37px #1fcbf6; /*/es para darne sombras a un objeto y se le puede asignar color pero se
+    deben de poner las medidas /*/
+} /*/ cierre  /*/
+.FM h2{ /*/se esta seleccionando toda la clase /*/
+    color: #39c9f5; /*/ color de la clase seleccionada /*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*/define una lista de fuentes o familias de fuentes, con un 
+    orden de prioridad /*/
+    position: relative; /*/se esta asignando la posicion /*/
+    text-shadow: 1px 1px 1px black, 0 0 2em pink, 0 0 0.1em green; /*/color del formluario y especifico de la etiqueta 
+    de registro /*/
+}
+.FM h3{ /*/se esta mandando a llamar un nueva clase /*/
+    font-size: 22px; /*/especificacion del tipo de letra /*/
+    margin-bottom: 20px; /*/el marguen del boton /*/
+}
+.control{ /*/se esta mandando a llamar toda la clase /*/ 
+    width: 100%; /*/el ancho y se esta midiendo en porcentaje /*/
+    background: #24303c; /*/el color de fondo que se esta llamando en hexadecimal /*/
+    padding: 10px; /*/el relleno /*/
+    border-radius: 9px; /*/la medida del borde /*/
+    margin-bottom: 10px; /*/el marguen de un boton especifico /*/
+    border: 1px solid #9907B0; /*/ opciones del borde como el tamaño, color y estilo /*/
+    font-family: 'calibri';/*/define una lista de fuentes o familias de fuentes, con un orden de prioridad /*/
+    font-size: 18px; /*/rl tamaño de la letra /*/
+    color:yellow; /*/El color que se esta llamando por su nombre /*/
+}/*/cierre /*/
+.FM .boton{ /*/ ultima clase /*/
+width: 100%; /*/el ancho de la clase /*/
+background: #22EE5D; /*/el fondo con su respectivo color /*/
+border: none; /*/el estilo del borde /*/
+padding: 15px; /*/el tamaño del relleno /*/
+color: white; /*/color /*/
+margin: 16px 0; /*/ medidas del marguen /*/
+font-size: 16px; /*/tamaño de la letra /*/
+
+}/*/ultimo cierre de la clase y del css /*/

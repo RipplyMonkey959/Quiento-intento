@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: "arial", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+img{
+width: 100%;
+height: 100%;
+}
+.container{
+  color: #000000;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+.navbar a:hover {
+    background: #fb3126;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+@media screen and (max-widh: 660px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }  
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: #68def6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.bacgrounStyle {
+  padding: 20px;
+  margin-top: 0px;
+  background-color: #000000;
+  height: 720px;
+  background-image: url("../image/Reaper.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.bacgrounStyle1 {
+  padding: 20px;
+  margin-top: 0px;
+  background-color: #000000;
+  height: 700px;
+  background-image: url("../image/Diva.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.bacgrounStyle2 {
+  padding: 20px;
+  margin-top: 0px;
+  background-color: #000000;
+  height: 700px;
+  background-image: url("../image/Jack.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.bacgrounStyle3 {
+  padding: 20px;
+  margin-top: 0px;
+  background-color: #000000;
+  height: 750px;
+  background-image: url("../image/Mikasa.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.bacgrounStyle4 {
+  padding: 20px;
+  margin-top: 0px;
+  background-color: #000000;
+  height: 670px;
+  background-image: url("../image/V.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.Container .bacgrounStyle p{
+  width: 50%;
+  overflow: auto;
+  padding: 15px;
+  height: 200px;
+}

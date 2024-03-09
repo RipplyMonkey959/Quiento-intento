@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!-- Se utiliza para especificar la version de html que se esta utilizando en la construccion de la pagina-->
+<html lang="en"> <!-- define el inicio y el tipo de lenguaje-->
+<head> <!-- define la seccion de encabezado de la pagina-->
+    <meta charset="UTF-8"> <!-- hace que la página web podrá gestionar la visualización de cualquier idioma-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> tarea formulario</title> <!-- Define el titulo de la pestaña del navegador-->
+    <link rel="shortcut icon" href="image/x.jpg"> <!--Sirve para poner un icono en la parte de la pestaña y hrf es para indicar
+    donde esta ubicada la imagen-->
+    <link rel="stylesheet" href="style.css"> <!--   El atributo rel se usa para definir la relación entre el archivo enlazado y 
+    el documento HTML y con el href indicas donde se encuentra el css-->
+</head> <!-- fin de la etiqueta -->
+<body> <!-- inicio de la etiqueta body-->
+        <form class="FM" title="Formulario"> <!--la etiqueta form es para crear un formulario y con el title le das el nombre -->
+            <h2> <center> Registrar usuario </center> </h2> <!-- El titulo -->
+        <h3> <!-- inicio de un titulo-->
+            
+            <input type="text" class="control" name="nombre" id="nombre" title="NOMBRE" placeholder="Ingresar nombre"> <!-- La etiqueta imput
+            tiene el fin de crear controladores interactivos-->
+            <input type="text" class="control" name="apellido" id="apellido" title="APELLIDO" placeholder="Ingresar apellido"> <!--La etiqueta
+            class identifica una clase de elementos para modificar en el css -->
+            <input type="email" class="control" name="correo" id="correo" title="E-mail" placeholder="Ingresar correo"> <!-- con el name le estas
+            dando el nombre al campo del fomulario-->
+            <input type="password" class="control" name="pass" id="pass" title="CONTRASEÑA" placeholder="Ingresar contraseña"> <!-- El id
+             sirve para identificar el elemento al vincularlo-->
+            <input type="submit" class="boton" value="Registrar" title="Registrarse"> <!-- el placeholder es para proporcionar ejemplos en las 
+            entradas de cualquier formulario-->
+
+        </h3> <!-- cierre del titulo-->
+</body> <!-- cierre de la etiqueta body-->
+</html> <!-- fin del codigo-->

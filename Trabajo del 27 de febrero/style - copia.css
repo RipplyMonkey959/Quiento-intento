@@ -1,0 +1,47 @@
+*{
+box-sizing: border-box;
+margin: 0;
+font-family: "";
+color: black;
+}
+,:left{
+    background-color: rgb(59, 243, 108);
+    padding: 20px;
+    float: right;
+    width: 50%; /* the widt is 20%, by default*/
+    color: rgb(249, 45, 45);
+    text-align: center;
+}
+.main{
+    text-align: center;
+    padding: 10%;
+    float: right;
+    width: 20%;
+    color: blueviolet;
+    text-align: center;
+}
+
+.mainP {
+    text-align: center;
+    padding: 20%;
+    float: left;
+    width: 20%;
+    color: rgb(68, 243, 225);
+    text-align: center;
+}
+.right{
+    text-align: center;
+    padding: 10%;
+    float: left;
+    width: 30%;
+    color: red;
+    text-align: center;
+}
+.rightp{
+    text-align: center;
+    padding: 10%;
+    float: left;
+    width: 30%;
+    color: purple;
+    text-align: center;
+}
